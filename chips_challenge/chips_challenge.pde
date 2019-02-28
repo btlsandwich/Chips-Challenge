@@ -1,6 +1,7 @@
 PlayerSprite Chiaki; 
 ArrayList <Chips> coins = new ArrayList <Chips> ();
 ArrayList <Passkeys> keys = new ArrayList <Passkeys> ();
+ArrayList <Enemies> tekki = new ArrayList <Enemies> ();
 private int score, level;
 private double time; 
 private boolean wPressed, sPressed, aPressed, dPressed, escPressed; 
@@ -20,7 +21,24 @@ public void setup() {
 }
 public void draw() {
 
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//key-release-functionality
 public void keyPressed() {
   if(key == 'w')
     {wPressed = true;}
